@@ -1,0 +1,36 @@
+@import url('https://fonts.cdnfonts.com/css/nickainley');
+.Comeco1{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    height: 340px;
+}
+.queme{
+    color: black;
+    text-align: center;
+    font-size: 150px;
+    font-family:'Nickainley', sans-serif;;
+}
+body{
+    background-color: dimgrey;
+}
+.imagem1{
+    text-align: center;
+    margin: 0%;
+    margin-left:0%
+}
+.sobre{
+    color: black;
+    text-align: center;
+    font-size: 150px;
+    font-family:'Nickainley', sans-serif;;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    height: 300px;
+    margin: 0%;
+}
+.sobre2{
+    text-align: center;
+    color: black;
+    font-size: 150px;
+    font-family:'Nickainley', sans-serif;;
+}
