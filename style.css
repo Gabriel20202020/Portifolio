@@ -1,36 +1,195 @@
 @import url('https://fonts.cdnfonts.com/css/nickainley');
+@import url('https://fonts.cdnfonts.com/css/bukhari-script');
 .Comeco1{
     background-color: rgb(255, 255, 255);
     display: grid;
-    height: 340px;
+    padding: 1%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
 }
 .queme{
     color: black;
     text-align: center;
-    font-size: 150px;
+    font-size: 80px;
     font-family:'Nickainley', sans-serif;;
 }
 body{
     background-color: dimgrey;
 }
-.imagem1{
+.tamanhoimagem{
+   text-align: center;
+}
+.imagem1{ 
+    width: 250px;
+    height: 0%;
+    margin-left: 0%;
+}
+.imagem2{
     text-align: center;
-    margin: 0%;
-    margin-left:0%
+    width: 250px;
+}
+.imagem3{
+    text-align: center;
+    width: 250px;
 }
 .sobre{
-    color: black;
-    text-align: center;
-    font-size: 150px;
-    font-family:'Nickainley', sans-serif;;
     background-color: rgb(255, 255, 255);
     display: grid;
-    height: 300px;
-    margin: 0%;
-}
-.sobre2{
-    text-align: center;
+    padding: 1%;
     color: black;
-    font-size: 150px;
+    text-align: center;
+    font-size: 80px;
     font-family:'Nickainley', sans-serif;;
 }
+.textosobreeu{
+    text-align: right;
+    font-family: 'Bukhari Script', sans-serif;
+    font-size: 20px;
+}
+.imagemsobremim{
+    width: 250px;
+    height: 0%;
+    margin-right: 20%;
+    border-radius: 200px;
+}
+.imagemsobremim2{
+    width: 250px;
+    height: 0%;
+    margin-right: 20%;
+    border-radius: 200px;
+}
+.imagemsobremim3{
+    width: 250px;
+    height: 0%;
+    margin-right: 20%;
+    border-radius: 200px;
+}
+.imagemsobremim4{
+    width: 250px;
+    height: 0%;
+    margin-right: 20%;
+    border-radius: 200px;
+}
+.meusprojetos{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    padding: 1%;
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    font-family:'Nickainley', sans-serif;;
+}
+.historiadosmeusprojetos{
+    text-align: right;
+    font-family: 'Bukhari Script', sans-serif;
+    font-size: 20px;
+}
+.imagem_marca{
+    width: 250px;
+    height: 0%;
+    margin-right: 20%;
+    border-radius: 200px;
+}
+.imagem_roupa{
+    width: 250px;
+    height: 0%;
+    margin-right: 20%;
+    border-radius: 200px;
+}
+.habilidades{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    padding: 1%;
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    font-family:'Nickainley', sans-serif;;
+}
+.texto_habilidade{
+    text-align: right;
+    font-family: 'Bukhari Script', sans-serif;
+    font-size: 20px;
+}
+.imagem_atendimento{
+    width: 300px;
+    height: 0%;
+    margin-right: 20%;
+    border-radius: 180%
+    };
+.imagem_sorrindo{
+    width: 250px;
+    height: 0%;
+    margin-right: 20%;
+    border-radius: 200px;
+}
+.imagem_ti{
+    width: 250px;
+    height: 0%;
+    margin-right: 20%;
+    border-radius: 200px;
+}
+.contatos{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    padding: 1%;
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    font-family:'Nickainley', sans-serif;;
+}
+.instagram{
+    text-align:left;
+    font-family: 'Bukhari Script', sans-serif;
+    font-size: 20px;
+}
+.imagem_insta{
+    height: 150px;
+    margin: 0%;
+}
+.nome_insta{
+    text-align:left;
+    font-family: 'Bukhari Script', sans-serif;
+    font-size: 20px;
+}
+.texto_what{
+    text-align:left;
+    font-family: 'Bukhari Script', sans-serif;
+    font-size: 20px;
+}
+.numero{
+    text-align:left;
+    font-family: 'Bukhari Script', sans-serif;
+    font-size: 20px;
+}
+.imagem_what{
+    height: 150px;
+}
+.email{
+    text-align:left;
+    font-family: 'Bukhari Script', sans-serif;
+    font-size: 20px;
+}
+.imagem_email{
+    height: 150px;
+    margin: 0%;
+}
+.nomeemail{
+    text-align:left;
+    font-family: 'Bukhari Script', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
