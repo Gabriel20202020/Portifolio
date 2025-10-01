@@ -1,31 +1,43 @@
+/* Importando fontes personalizadas do CDN */
 @import url('https://fonts.cdnfonts.com/css/nickainley');
 @import url('https://fonts.cdnfonts.com/css/bukhari-script');
+
+/* Estilização da seção inicial */
 .Comeco1{
     background-color: rgb(255, 255, 255);
     display: grid;
     padding: 1%;
 }
+/* Reset geral de margens e paddings */
 *{
     margin: 0%;
     padding: 0%;
 }
+/* Título da seção "queme" */
 .queme{
     color: black;
     text-align: center;
     font-size: 80px;
     font-family:'Nickainley', sans-serif;;
 }
+
+/* Cor de fundo da página */
 body{
     background-color: dimgrey;
 }
+/* Centraliza a imagem */
 .tamanhoimagem{
    text-align: center;
 }
+
+/* Imagem principal - cuidado com height: 0%, a imagem pode não aparecer */
 .imagem1{ 
     width: 250px;
     height: 0%;
     margin-left: 0%;
 }
+
+/* Outras imagens com alinhamento centralizado */
 .imagem2{
     text-align: center;
     width: 250px;
@@ -34,6 +46,8 @@ body{
     text-align: center;
     width: 250px;
 }
+
+/* Seção "Sobre" */
 .sobre{
     background-color: rgb(255, 255, 255);
     display: grid;
@@ -43,35 +57,40 @@ body{
     font-size: 80px;
     font-family:'Nickainley', sans-serif;;
 }
+/* Texto da seção "Sobre mim" */
 .textosobreeu{
     text-align: right;
     font-family: 'Bukhari Script', sans-serif;
     font-size: 20px;
 }
+
+/* Imagens redondas da seção "Sobre mim" */
 .imagemsobremim{
     width: 250px;
     height: 0%;
-    margin-right: 20%;
+    margin-right: -5%;
     border-radius: 200px;
 }
 .imagemsobremim2{
     width: 250px;
     height: 0%;
-    margin-right: 20%;
+    margin-right: -5%;
     border-radius: 200px;
 }
 .imagemsobremim3{
     width: 250px;
     height: 0%;
-    margin-right: 20%;
+    margin-right: -5%;
     border-radius: 200px;
 }
 .imagemsobremim4{
     width: 250px;
     height: 0%;
-    margin-right: 20%;
+    margin-right: 0%;
     border-radius: 200px;
 }
+
+/* Seção "Meus projetos" */
 .meusprojetos{
     background-color: rgb(255, 255, 255);
     display: grid;
@@ -81,23 +100,31 @@ body{
     font-size: 80px;
     font-family:'Nickainley', sans-serif;;
 }
+
+/* Texto da seção "História dos meus projetos" */
 .historiadosmeusprojetos{
     text-align: right;
     font-family: 'Bukhari Script', sans-serif;
     font-size: 20px;
 }
+
+/* Imagens dos projetos */
 .imagem_marca{
     width: 250px;
     height: 0%;
-    margin-right: 20%;
+    margin-right: -5%;
     border-radius: 200px;
 }
 .imagem_roupa{
     width: 250px;
     height: 0%;
-    margin-right: 20%;
+    margin-right: 0%;
     border-radius: 200px;
+    
 }
+
+/* Seção "Habilidades" */
+
 .habilidades{
     background-color: rgb(255, 255, 255);
     display: grid;
@@ -107,29 +134,37 @@ body{
     font-size: 80px;
     font-family:'Nickainley', sans-serif;;
 }
+/* Texto da seção "Habilidades" */
 .texto_habilidade{
     text-align: right;
     font-family: 'Bukhari Script', sans-serif;
     font-size: 20px;
 }
-.imagem_atendimento{
-    width: 300px;
-    height: 0%;
-    margin-right: 20%;
-    border-radius: 180%
-    };
-.imagem_sorrindo{
+
+
+.imagemagil{
     width: 250px;
     height: 0%;
-    margin-right: 20%;
+    margin-right: -5%;
     border-radius: 200px;
+    background-color: rgb(0, 0, 0);
 }
-.imagem_ti{
+.imagemcriativo{
     width: 250px;
     height: 0%;
-    margin-right: 20%;
+    margin-right: -5%;
     border-radius: 200px;
 }
+.atendente{
+    width: 250px;
+    height: 0%;
+    margin-right: -5%;
+    border-radius: 200px;
+}
+
+
+
+/* Seção "Contatos" */
 .contatos{
     background-color: rgb(255, 255, 255);
     display: grid;
@@ -139,42 +174,63 @@ body{
     font-size: 80px;
     font-family:'Nickainley', sans-serif;;
 }
+
+
+/* Texto do Instagram */
 .instagram{
     text-align:left;
     font-family: 'Bukhari Script', sans-serif;
     font-size: 20px;
 }
+
+
+/* Ícone do Instagram */
 .imagem_insta{
     height: 150px;
     margin: 0%;
 }
+
+/* Texto do Instagram */
 .nome_insta{
     text-align:left;
     font-family: 'Bukhari Script', sans-serif;
     font-size: 20px;
 }
+
+/* Texto do WhatsApp */
 .texto_what{
     text-align:left;
     font-family: 'Bukhari Script', sans-serif;
     font-size: 20px;
 }
+
+/* Texto do WhatsApp */
 .numero{
     text-align:left;
     font-family: 'Bukhari Script', sans-serif;
     font-size: 20px;
 }
+
+
+/* Ícone do WhatsApp */
 .imagem_what{
     height: 150px;
 }
+
+/* Texto do Email */
 .email{
     text-align:left;
     font-family: 'Bukhari Script', sans-serif;
     font-size: 20px;
 }
+
+/* Ícone do email */
 .imagem_email{
     height: 150px;
     margin: 0%;
 }
+
+/* Texto do Email */
 .nomeemail{
     text-align:left;
     font-family: 'Bukhari Script', sans-serif;
